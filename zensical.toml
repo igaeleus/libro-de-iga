@@ -1,0 +1,45 @@
+[project]
+site_name = "Libro de Iga"
+site_description = "Despertando al olvidado conocimiento"
+site_author = "Iga Eleus"
+copyright = "&copy; 2025 Iga Eleus"
+
+[project.theme]
+# variant = "default"
+language = "es"
+
+[project.theme.icon]
+logo = "lucide/pyramid" 
+favicon = "lucide/pyramid"
+
+[[project.theme.palette]] 
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.extra.consent]
+title = "Consentimiento de cookies"
+description = """
+    Utilizamos cookies para reconocer sus visitas repetidas y preferencias, 
+    así como para medir la eficacia de nuestra documentación y si los usuarios 
+    encuentran lo que buscan. Con su consentimiento, nos ayuda a mejorar nuestra documentación.
+""" 
+actions = [
+    "accept",
+    "manage" 
+]
+
+[[project.extra.social]]
+icon = "fontawesome/brands/x-twitter"
+link = "https://x.com/igaeleus"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/paper-plane"
+link = "mailto:igaeleus@proton.me"
+
+
